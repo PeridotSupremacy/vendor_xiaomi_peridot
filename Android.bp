@@ -1043,3 +1043,10 @@ install_symlink {
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
+
+install_symlink {
+    name: "vendor_lib64_soundfx_libmisoundfx_so",
+    soc_specific: true,
+    installed_location: "lib64/soundfx/libmisoundfx.so",
+    symlink_target: "/vendor/lib64/libmisoundfx_ext.so",
+}

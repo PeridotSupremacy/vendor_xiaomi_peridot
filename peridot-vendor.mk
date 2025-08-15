@@ -2839,4 +2839,5 @@ PRODUCT_PACKAGES += \
     vendor_lib64_camera_aon_front_1_pb \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
-    vendor_lib64_libq3dtools_adreno_so
+    vendor_lib64_libq3dtools_adreno_so \
+    vendor_lib64_soundfx_libmisoundfx_so
