@@ -904,8 +904,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/camera/plugins/com.xiaomi.plugin.watermark.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/plugins/com.xiaomi.plugin.watermark.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/consumerir.qcom.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/consumerir.qcom.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/displayfeature.default.so \
-    vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.goodix_fod.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_fod.so \
-    vendor/xiaomi/peridot/proprietary/odm/lib64/hw/fingerprint.jiiov.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.jiiov.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libAncHumanVideoBokehV4.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanVideoBokehV4.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libMiDispDevManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libMiDispDevManager.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libTrueSight.so:$(TARGET_COPY_OUT_ODM)/lib64/libTrueSight.so \
@@ -940,7 +938,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libeyecare.so:$(TARGET_COPY_OUT_ODM)/lib64/libeyecare.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libflatmode.so:$(TARGET_COPY_OUT_ODM)/lib64/libflatmode.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libfpsmonitor.so:$(TARGET_COPY_OUT_ODM)/lib64/libfpsmonitor.so \
-    vendor/xiaomi/peridot/proprietary/odm/lib64/libgf_hal.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libhistprocess.so:$(TARGET_COPY_OUT_ODM)/lib64/libhistprocess.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/liblocalFlickerDet.so:$(TARGET_COPY_OUT_ODM)/lib64/liblocalFlickerDet.so \
     vendor/xiaomi/peridot/proprietary/odm/lib64/libmi-stc-HW-modulate.so:$(TARGET_COPY_OUT_ODM)/lib64/libmi-stc-HW-modulate.so \
@@ -1064,7 +1061,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service-qti \
     vendor/xiaomi/peridot/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.strongbox-nxp:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.strongbox-nxp \
     vendor/xiaomi/peridot/proprietary/vendor/bin/hw/android.hardware.weaver-service.nxp-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.weaver-service.nxp-qti \
-    vendor/xiaomi/peridot/proprietary/vendor/bin/hw/mfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfp-daemon \
     vendor/xiaomi/peridot/proprietary/vendor/bin/hw/qconfigservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qconfigservice \
     vendor/xiaomi/peridot/proprietary/vendor/bin/hw/qcrilNrd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrilNrd \
     vendor/xiaomi/peridot/proprietary/vendor/bin/hw/qvrservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qvrservice \
@@ -1334,7 +1330,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/init.charge_logger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.charge_logger.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/init.mfp-daemon.aidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mfp-daemon.aidl.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/init.qti.graphics.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.graphics.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
@@ -1442,7 +1437,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/perf/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalbreakboostconfig.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint3-nxp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint3-nxp.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/peridot/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/xiaomi/peridot/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
@@ -1785,7 +1779,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/camx.device-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camx.device-impl.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/camx.provider-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camx.provider-impl.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/com.fingerprints.extension3-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension3-V1-ndk.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.camx.chiiqutils.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/com.qti.chiusecaseselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.chiusecaseselector.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/com.qti.feature2.afbrckt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.afbrckt.so \
@@ -2731,8 +2724,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.bgservice@1.0.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fingerprintextension-V1-ndk.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hardware.mlipay-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mlipay-V1-ndk_platform.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hardware.quickcamera-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.quickcamera-V1-ndk_platform.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.xiaomi.hw.touchfeature-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hw.touchfeature-V1-ndk.so \
@@ -2746,7 +2737,6 @@ PRODUCT_PACKAGES += \
     CACertService \
     CneApp \
     IWlanService \
-    QFingerprintService \
     TimeService \
     uimgbaservice \
     ImsRcsService \
@@ -2756,8 +2746,6 @@ PRODUCT_PACKAGES += \
     WfdService \
     ims \
     qcrilmsgtunnel \
-    JVFactoryTest \
-    goodix_sz \
     WfdCommon \
     androidx.camera.extensions.impl \
     uimgbalibrary \
@@ -2778,7 +2766,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
-    AHBF-V3-service.xml \
     ImsRtpService-aidl.xml \
     android.hardware.drm_wfdhdcp-service.xml \
     android.hardware.gnss-aidl-service-qti.xml \
@@ -2804,7 +2791,6 @@ PRODUCT_PACKAGES += \
     datafactoryservice-saidl.xml \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
-    fod-aidl.xml \
     imsdcservice-saidl.xml \
     manifest_identity_credential.xml \
     manifest_non_qmaa.xml \
