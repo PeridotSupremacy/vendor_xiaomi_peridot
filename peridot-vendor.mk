@@ -1161,7 +1161,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/ambient_para.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ambient_para.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/audio/sku_cliffs/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/audio_effects.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/audio/sku_cliffs/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/audio_effects.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp_wcd9395.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/mixer_paths_cliffs_mtp_wcd9395.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cliffs/resourcemanager_cliffs_mtp.xml \
