@@ -411,6 +411,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_3.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_n16t_42_02_0a_dsc_vid/mi_gc_3.txt \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_36_0f_0b_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_36_0f_0b_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_video_mode_dsc_dsi_panel.json \
+    vendor/xiaomi/peridot/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_0a_0c_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_0a_0c_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default-spatializer.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
@@ -425,6 +426,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_36_0f_0b_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_36_0f_0b_dsc_vid_mi.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_42_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_42_02_0a_dsc_vid_mi.xml \
+    vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_42_0a_0c_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_42_0a_0c_dsc_vid_mi.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/sensors/config/ak7323.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/ak7323.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/chre_dynamic_sensors.json \
