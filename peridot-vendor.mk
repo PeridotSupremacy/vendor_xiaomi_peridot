@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/bin/mlipayd:$(TARGET_COPY_OUT_ODM)/bin/mlipayd \
     vendor/xiaomi/peridot/proprietary/odm/bin/test-nusensors:$(TARGET_COPY_OUT_ODM)/bin/test-nusensors \
     vendor/xiaomi/peridot/proprietary/odm/etc/MESubway_prebuilt.db:$(TARGET_COPY_OUT_ODM)/etc/MESubway_prebuilt.db \
-    vendor/xiaomi/peridot/proprietary/odm/etc/acdbdata/cliffs_mtp/Fluence_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/cliffs_mtp/Fluence_acdb_cal.acdb \
+    vendor/xiaomi/peridot/proprietary/odm/etc/acdbdata/Fluence/Fluence_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Fluence/Fluence_acdb_cal.acdb \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/mis_head.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/mis_head_spatial.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_head_spatial.bin \
     vendor/xiaomi/peridot/proprietary/odm/etc/audio/mis_spk.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/mis_spk.bin \
