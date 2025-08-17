@@ -1822,11 +1822,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/deviceInfoServiceModuleNr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/deviceInfoServiceModuleNr.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libEGL_angle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_angle.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libGLESv1_CM_angle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_angle.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libGLESv2_angle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_angle.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/ese_weaver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_weaver.so \
