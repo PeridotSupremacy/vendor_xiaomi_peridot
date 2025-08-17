@@ -2710,7 +2710,6 @@ PRODUCT_PACKAGES += \
     charge_logger \
     cnd \
     cnss-daemon \
-    cnss_diag \
     diag-router \
     displayfeature \
     dpmQmiMgr \
