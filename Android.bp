@@ -3,6 +3,8 @@
 //
 
 soong_namespace {
+    imports: [
+    ],
 }
 
 cc_prebuilt_library_shared {
@@ -25240,7 +25242,7 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libwfdhdcpcp",
                 "libc++",
-                "libclang_rt.ubsan_standalone-aarch64-android",
+                "libclang_rt.ubsan_standalone",
                 "libc",
                 "libm",
                 "libdl",
