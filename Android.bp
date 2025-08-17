@@ -22529,6 +22529,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "librendercore",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/librendercore.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libEGL",
+                "libGLESv3",
+                "libnativewindow",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libresampler",
     owner: "xiaomi",
     strip: {
@@ -36460,6 +36487,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libMiStereoFactoryCalibAnalyzeBin_qual",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so",
+            ],
+            shared_libs: [
+                "libOpenCL",
+                "libcdsprpc",
+                "libmialgo_utils",
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libTrueSight",
     owner: "xiaomi",
     strip: {
@@ -37570,6 +37624,34 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmiStereoCalibLib_qual",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libmiStereoCalibLib_qual.so",
+            ],
+            shared_libs: [
+                "libMiStereoFactoryCalibAnalyzeBin_qual",
+                "libOpenCL",
+                "libcdsprpc",
+                "libmialgo_utils",
+                "liblog",
                 "libc",
                 "libm",
                 "libdl",

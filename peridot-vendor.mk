@@ -2036,6 +2036,7 @@ PRODUCT_PACKAGES += \
     libqwes \
     librcc \
     librcmask \
+    librendercore \
     libresampler \
     libril-db \
     libril-legacy \
@@ -2515,6 +2516,7 @@ PRODUCT_PACKAGES += \
     displayfeature.default \
     libAncHumanVideoBokehV4 \
     libMiDispDevManager \
+    libMiStereoFactoryCalibAnalyzeBin_qual \
     libTrueSight \
     libadaptivehdr \
     libanc_edof_checker \
@@ -2554,6 +2556,7 @@ PRODUCT_PACKAGES += \
     libmiBrightness \
     libmiClstc \
     libmiSensorCtrl \
+    libmiStereoCalibLib_qual \
     libmiXmlParser \
     libmi_dspp \
     libmiai_deblur \
