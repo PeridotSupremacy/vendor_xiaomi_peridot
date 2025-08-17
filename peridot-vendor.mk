@@ -1845,7 +1845,6 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub \
     libmdmdetect \
     libmdsprpc \
-    libmemunreachable \
     libmemutils \
     libmeters-ns \
     libmeters \
