@@ -2419,7 +2419,7 @@ PRODUCT_PACKAGES += \
     libqvr_cam_dsp_driver_skel \
     libqvr_dsp_driver_skel \
     libtracker_6dof_skel_8450 \
-    nearby \
+    nearby.napp_header \
     nearby \
     lib-imsvideocodec \
     lib-imsvt \
