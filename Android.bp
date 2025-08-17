@@ -7463,11 +7463,11 @@ cc_prebuilt_library_shared {
                 "librcc",
                 "libion",
                 "libhidlbase",
-                "vendor.qti.imsrtpservice@3.0",
-                "vendor.qti.imsrtpservice@3.1",
+                "vendor.qti.imsrtpservice@3.0_vendor",
+                "vendor.qti.imsrtpservice@3.1_vendor",
                 "vendor.qti.ImsRtpService-aidl-Impl",
                 "libbinder_ndk",
-                "vendor.qti.ImsRtpService-V1-ndk",
+                "vendor.qti.ImsRtpService-V1-ndk_vendor",
                 "libdiag",
                 "libcutils",
                 "libutils",
@@ -28117,7 +28117,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.ImsRtpService-V1-ndk",
+    name: "vendor.qti.ImsRtpService-V1-ndk_vendor",
+    stem: "vendor.qti.ImsRtpService-V1-ndk",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -28163,7 +28164,7 @@ cc_prebuilt_library_shared {
                 "libdiag",
                 "libbinder_ndk",
                 "libbinder",
-                "vendor.qti.ImsRtpService-V1-ndk",
+                "vendor.qti.ImsRtpService-V1-ndk_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -31802,7 +31803,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@3.0",
+    name: "vendor.qti.imsrtpservice@3.0_vendor",
+    stem: "vendor.qti.imsrtpservice@3.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -31830,7 +31832,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@3.1",
+    name: "vendor.qti.imsrtpservice@3.1_vendor",
+    stem: "vendor.qti.imsrtpservice@3.1",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -31841,7 +31844,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.1.so",
             ],
             shared_libs: [
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "libhidlbase",
                 "liblog",
                 "libutils",
@@ -41369,10 +41372,10 @@ cc_prebuilt_binary {
                 "libqmiservices",
                 "libqmi_csi",
                 "libqmi_cci",
-                "vendor.qti.imsrtpservice@3.1",
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.1_vendor",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "vendor.qti.ImsRtpService-aidl-Impl",
-                "vendor.qti.ImsRtpService-V1-ndk",
+                "vendor.qti.ImsRtpService-V1-ndk_vendor",
                 "libbinder_ndk",
                 "libutils",
                 "libhidlbase",

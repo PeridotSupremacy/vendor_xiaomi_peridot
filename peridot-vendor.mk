@@ -2230,7 +2230,7 @@ PRODUCT_PACKAGES += \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
     vendor.nxp.hardware.nfc@2.0 \
-    vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.ImsRtpService-V1-ndk_vendor \
     vendor.qti.ImsRtpService-aidl-Impl \
     vendor.qti.data.factoryservice-V1-ndk \
     vendor.qti.data.mwqem@1.0 \
@@ -2358,8 +2358,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.ims.rcssipaidlservice-V1-ndk \
     vendor.qti.ims.rcsuceaidlservice-V1-ndk \
-    vendor.qti.imsrtpservice@3.0 \
-    vendor.qti.imsrtpservice@3.1 \
+    vendor.qti.imsrtpservice@3.0_vendor \
+    vendor.qti.imsrtpservice@3.1_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
