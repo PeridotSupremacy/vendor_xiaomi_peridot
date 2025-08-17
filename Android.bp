@@ -15570,6 +15570,70 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "liblmthermallistner",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liblmthermallistner.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libbinder_ndk",
+                "libutils",
+                "libthermalclient",
+                "android.hardware.thermal-V1-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblmutils-ns",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liblmutils-ns.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libnl",
+                "vendor.qti.hardware.servicetracker@1.0",
+                "vendor.qti.hardware.servicetracker@1.1",
+                "libhidlbase",
+                "libsqlite",
+                "libutils",
+                "liblearningmodule",
+                "android.hardware.thermal-V1-ndk",
+                "liblmthermallistner",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libloadtrusteduiapp",
     owner: "xiaomi",
     strip: {
@@ -16570,6 +16634,34 @@ cc_prebuilt_library_shared {
                 "libion",
                 "libdisplaydebug",
                 "libvmmem",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmeters-ns",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmeters-ns.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liblearningmodule",
+                "liblmutils-ns",
                 "libc++",
                 "libc",
                 "libm",

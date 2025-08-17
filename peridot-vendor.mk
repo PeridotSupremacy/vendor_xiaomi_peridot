@@ -1812,6 +1812,8 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
+    liblmthermallistner \
+    liblmutils-ns \
     libloadtrusteduiapp \
     libloc_api_v02 \
     libloc_api_wds \
@@ -1845,6 +1847,7 @@ PRODUCT_PACKAGES += \
     libmdsprpc \
     libmemunreachable \
     libmemutils \
+    libmeters-ns \
     libmeters \
     libmfGhostDetection \
     libmfec \
