@@ -2825,8 +2825,7 @@ PRODUCT_PACKAGES += \
     wfdservice64 \
     vendor.xiaomi.hw.touchfeature-service \
     vendor.xiaomi.sensor.citsensorservice.aidl \
-    mlipayd \
-    test-nusensors
+    mlipayd
 
 PRODUCT_PACKAGES += \
     vendor_lib64_camera_aon_front_1_pb \

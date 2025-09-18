@@ -43217,39 +43217,6 @@ cc_prebuilt_binary {
     device_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "test-nusensors",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/bin/test-nusensors",
-            ],
-            shared_libs: [
-                "liblog",
-                "libhardware",
-                "libutils",
-                "libcutils",
-                "libbinder_ndk",
-                "libhidlbase",
-                "vendor.xiaomi.sensor.citsensorservice-V1-ndk",
-                "android.frameworks.sensorservice@1.0",
-                "android.hardware.ir-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    device_specific: true,
-}
-
 install_symlink {
     name: "vendor_lib64_camera_aon_front_1_pb",
     soc_specific: true,
