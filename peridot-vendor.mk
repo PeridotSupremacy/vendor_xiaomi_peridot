@@ -1017,7 +1017,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.security.keymint-service.strongbox-nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.strongbox-nxp.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.weaver-service.nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.nxp.rc \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.weaver-service.nxp-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.weaver-service.nxp-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -2618,7 +2618,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service-qti.xml \
     android.hardware.security.keymint3-service.strongbox-nxp.xml \
     android.hardware.security.sharedsecret3-service.strongbox-nxp.xml \
-    android.hardware.weaver-service.nxp.xml \
+    android.hardware.weaver-service.nxp-qti.xml \
     atfwd-saidl.xml \
     bttpi-saidl.xml \
     c2_manifest_vendor.xml \

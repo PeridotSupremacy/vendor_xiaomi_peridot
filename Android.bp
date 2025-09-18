@@ -38738,9 +38738,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.weaver-service.nxp.xml",
+    name: "android.hardware.weaver-service.nxp-qti.xml",
     owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.weaver-service.nxp.xml",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.weaver-service.nxp-qti.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
