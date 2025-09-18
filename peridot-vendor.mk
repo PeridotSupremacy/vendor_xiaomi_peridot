@@ -1018,7 +1018,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.gatekeeper-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.secure_element-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element-service.qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/android.hardware.security.keymint-service.strongbox-nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.strongbox-nxp.rc \
@@ -2026,7 +2025,6 @@ PRODUCT_PACKAGES += \
     libqti-util \
     libqti-utils \
     libqtigefar \
-    libqtiidentitycredential \
     libqtikeymaster4 \
     libqtikeymint \
     libqvr_cam_cdsp_driver_stub \
@@ -2663,7 +2661,6 @@ PRODUCT_PACKAGES += \
     deviceinfo-saidl.xml \
     dpm-saidl.xml \
     imsdcservice-saidl.xml \
-    manifest_identity_credential.xml \
     manifest_non_qmaa.xml \
     manifest_non_qmaa_extn.xml \
     mwqem-saidl.xml \
