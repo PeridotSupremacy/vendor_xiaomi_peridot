@@ -1690,6 +1690,7 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libconfigdb \
     libcpion \
+    libcppbor_peridot \
     libcv_common \
     libdapparamstorage \
     libdataitems \
