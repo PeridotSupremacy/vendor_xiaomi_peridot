@@ -2832,3 +2832,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libGLESv2_adreno_so \
     vendor_lib64_libq3dtools_adreno_so \
     vendor_lib64_soundfx_libmisoundfx_so
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
