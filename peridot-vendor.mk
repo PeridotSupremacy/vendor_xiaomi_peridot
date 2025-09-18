@@ -422,9 +422,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hw.touchfeature-service.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc \
     vendor/xiaomi/peridot/proprietary/odm/etc/izat_device.conf:$(TARGET_COPY_OUT_ODM)/etc/izat_device.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_36_0f_0b_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_36_0f_0b_dsc_vid_mi.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_42_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_42_02_0a_dsc_vid_mi.xml \
     vendor/xiaomi/peridot/proprietary/odm/etc/mdss_dsi_n16t_42_0a_0c_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_n16t_42_0a_0c_dsc_vid_mi.xml \
@@ -861,7 +858,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/xiaomi/peridot/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/1-SN1X0_SPC.txt:$(TARGET_COPY_OUT_VENDOR)/etc/1-SN1X0_SPC.txt \
     vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/xiaomi/peridot/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
@@ -1044,7 +1040,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/libxiaomi_qcril.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/libxiaomi_qcril.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/nicmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nicmd.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/nqnfc-service-nxp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nqnfc-service-nxp.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
@@ -1093,13 +1088,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/kvh2xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/kvh2xml.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-SN220_19_2MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_19_2MHZ.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-SN220_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-SN220_38_4MHZ.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/xiaomi/peridot/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
@@ -1109,7 +1099,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/vui/sm8_gr1UsPdk6XsMfcn220819Enpu4FloateAIv34.uim:$(TARGET_COPY_OUT_VENDOR)/etc/models/vui/sm8_gr1UsPdk6XsMfcn220819Enpu4FloateAIv34.uim \
     vendor/xiaomi/peridot/proprietary/vendor/etc/models/vui/sm8_gr3UsMFCN230612eAIv34ENPUv4Float.uim:$(TARGET_COPY_OUT_VENDOR)/etc/models/vui/sm8_gr3UsMFCN230612eAIv34ENPUv4Float.uim \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/nfcon.pnscr \
     vendor/xiaomi/peridot/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
@@ -1204,26 +1193,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sensors/config/qsh_camera_imx688_6_actuator.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_camera_imx688_6_actuator.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_nfcon.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_chr.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_cui.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_3_hce.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3_hce.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_aclog.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_aclog.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_cplc.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_fabkey.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_fabkey.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_free.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_free.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_keyset.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_keyset.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_disable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_disable.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_enable.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_enable.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_sei2c_read.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sei2c_read.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ese_sn.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sn.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ndi.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_pcv.pnscr \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_sst.pnscr \
     vendor/xiaomi/peridot/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
@@ -1367,7 +1336,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/liblx-ar_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-ar_util.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/liblx-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblx-osal.so \
     vendor/xiaomi/peridot/proprietary/vendor/lib64/libpalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpalclient.so \
-    vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+    vendor/xiaomi/peridot/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so \
+    vendor/xiaomi/peridot/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
@@ -2070,7 +2040,6 @@ PRODUCT_PACKAGES += \
     libslimclient \
     libsmemlog \
     libsn100u_fw \
-    libsn220u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsnpe_config \
@@ -2158,7 +2127,6 @@ PRODUCT_PACKAGES += \
     libxlog \
     libxml \
     libxtadapter \
-    nfc_nci.nqx.default.hw \
     qcrilInterfaces \
     qcrilIntermodulemsgs \
     qcrilMarshal \
@@ -2234,7 +2202,6 @@ PRODUCT_PACKAGES += \
     vendor.libdpmframework \
     vendor.libdpmtcm \
     vendor.libmwqemiptablemgr \
-    vendor.nxp.hardware.nfc@2.0 \
     vendor.qti.ImsRtpService-V1-ndk_vendor \
     vendor.qti.ImsRtpService-aidl-Impl \
     vendor.qti.data.factoryservice-V1-ndk \
@@ -2729,7 +2696,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper-service-qti \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.keymaster@4.0-service-qti \
-    android.hardware.nqnfc-service.nxp \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
     android.hardware.security.keymint-service.strongbox-nxp \
@@ -2772,9 +2738,6 @@ PRODUCT_PACKAGES += \
     pd-mapper \
     pm-proxy \
     pm-service \
-    pnscr \
-    pnscr-mi \
-    pnscr-rf \
     port-bridge \
     power_off_alarm \
     ppd \
