@@ -2217,7 +2217,7 @@ PRODUCT_PACKAGES += \
     libswgamedap \
     libswspatializer \
     libswvqe \
-    sqlite3 \
+    sqlite3_vendor \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \

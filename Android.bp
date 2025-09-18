@@ -5745,7 +5745,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libshadowhook",
                 "libprotobuf-cpp-full-21.7",
-                "sqlite3",
+                "sqlite3_vendor",
                 "com.xiaomi.drivermqs",
                 "libc++",
                 "libc",
@@ -27726,7 +27726,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "sqlite3",
+    name: "sqlite3_vendor",
+    stem: "sqlite3",
     owner: "xiaomi",
     strip: {
         none: true,
