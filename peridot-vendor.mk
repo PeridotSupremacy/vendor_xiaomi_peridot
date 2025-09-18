@@ -2387,7 +2387,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.aon-V1-ndk \
     vendor.xiaomi.hardware.bgservice@1.0-impl \
     vendor.xiaomi.hardware.bgservice@1.0 \
-    vendor.xiaomi.hardware.displayfeature@1.0 \
     vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk_platform \
     vendor.xiaomi.hardware.quickcamera-V1-ndk_platform \
