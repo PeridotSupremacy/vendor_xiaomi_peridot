@@ -1556,7 +1556,7 @@ PRODUCT_PACKAGES += \
     libsi \
     libslimclient \
     libsmemlog \
-    libsn100u_fw \
+    libsn220u_fw \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsns_device_mode_stub \
