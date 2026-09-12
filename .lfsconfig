@@ -1,3 +1,2 @@
 [lfs]
-    url = "https://lfs.undocumented.software/lfs/blobs.git/info/lfs"
-    pushurl = "ssh://git@lfs.undocumented.software/lfs/blobs.git"
+    url = https://github.com/PeridotSupremacy/vendor_xiaomi_peridot.git/info/lfs
